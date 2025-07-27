@@ -1,119 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Abdelrahman | Salesforce Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Abdelrahman's Portfolio</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f0f2f5;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
       margin: 0;
       padding: 0;
+      background: #f4f4f4;
       color: #333;
     }
     header {
-      background: linear-gradient(135deg, #0070d2, #005bb5);
-      color: white;
-      padding: 30px 20px;
+      background: #333;
+      color: #fff;
+      padding: 20px 0;
       text-align: center;
     }
     section {
-      padding: 30px 20px;
+      padding: 40px 20px;
       max-width: 1000px;
       margin: auto;
+      background: #fff;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
     h2 {
-      color: #0070d2;
-      margin-top: 40px;
+      color: #444;
     }
-    .project, .cert {
-      background: white;
-      padding: 20px;
-      margin: 15px 0;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
     }
     footer {
-      background: #222;
-      color: white;
+      background: #333;
+      color: #fff;
       text-align: center;
-      padding: 15px;
-      margin-top: 40px;
-    }
-    a {
-      color: #0070d2;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .button {
-      display: inline-block;
-      background-color: #0070d2;
-      color: white;
-      padding: 10px 20px;
-      margin-top: 10px;
-      border-radius: 5px;
-      text-decoration: none;
-    }
-    .button:hover {
-      background-color: #005bb5;
-    }
-    img.cert-img {
-      max-width: 120px;
-      margin: 10px;
-      border-radius: 8px;
+      padding: 20px 0;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>Abdelrahman Mohamed</h1>
-    <p>Salesforce Learner | Tech Enthusiast | Customer-Centric</p>
+    <h1>Welcome to My Portfolio</h1>
+    <p>Hi, I'm Abdelrahman — a passionate learner and future tech professional</p>
   </header>
 
-  <section>
+  <section id="about">
     <h2>About Me</h2>
-    <p>I am a motivated Salesforce learner passionate about CRM, cloud solutions, and helping businesses enhance customer experience. Currently pursuing hands-on training and certification.</p>
+    <p>I'm a graduate from the Faculty of Commerce, Alexandria University, currently working as a Customer Service Representative. I'm passionate about technology and continuously learning, especially in areas like Salesforce and data analysis.</p>
+  </section>
 
-    <h2>Skills</h2>
-    <ul>
-      <li>Salesforce CRM (Leads, Opportunities, Cases)</li>
-      <li>Process Automation (Flows, Workflow Rules)</li>
-      <li>Data Management (Reports, Dashboards)</li>
-      <li>Customer Service & Communication</li>
-      <li>HTML, Basic Web Development</li>
-    </ul>
-
+  <section id="projects">
     <h2>Projects</h2>
-    <div class="project">
-      <h3>Salesforce Case Management App</h3>
-      <p>Created a simple support ticket system in Salesforce to track customer issues, automate status updates, and generate reports for management.</p>
-    </div>
-    <div class="project">
-      <h3>Sales Pipeline Tracker</h3>
-      <p>Built a Lead-to-Opportunity conversion tracker using objects, fields, and visual dashboards inside Salesforce.</p>
-    </div>
+    <ul>
+      <li><strong>Gaza Data Dashboard (Power BI):</strong> Showcasing conflict data analysis</li>
+      <li><strong>Customer Support Simulations:</strong> Practicing empathy and tech support scenarios</li>
+      <li><strong>Salesforce Admin Trail:</strong> Completed Trailhead modules and certifications</li>
+    </ul>
+  </section>
 
-    <h2>Certificates</h2>
-    <div class="cert">
-      <p>Click to view:</p>
-      <a href="https://example.com/cert1" target="_blank"><img src="https://via.placeholder.com/120x90?text=Cert+1" alt="Certificate 1" class="cert-img"></a>
-      <a href="https://example.com/cert2" target="_blank"><img src="https://via.placeholder.com/120x90?text=Cert+2" alt="Certificate 2" class="cert-img"></a>
+  <section id="elevator-pitch">
+    <h2>My Elevator Pitch</h2>
+    <div class="video-container">
+      <iframe 
+        src="https://drive.google.com/file/d/1YdGtlDBu0ChDl_xse3spvvWBzjxbNfL7/preview"
+        allow="autoplay"
+        allowfullscreen>
+      </iframe>
     </div>
+  </section>
 
-    <h2>Resume</h2>
-    <a href="https://example.com/resume.pdf" class="button" target="_blank">Download Resume</a>
-
+  <section id="contact">
     <h2>Contact</h2>
     <p>Email: abdelrahman@example.com</p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/abdelrahman" target="_blank">linkedin.com/in/abdelrahman</a></p>
-    <p>GitHub: <a href="https://github.com/AbdelrhmanM111" target="_blank">github.com/AbdelrhmanM111</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">My LinkedIn</a></p>
+    <p>GitHub: <a href="https://github.com/AbdelrhmanM111" target="_blank">My GitHub</a></p>
   </section>
 
   <footer>
-    <p>Made with 💙 by Abdelrahman | 2025</p>
+    <p>&copy; 2025 Abdelrahman. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
