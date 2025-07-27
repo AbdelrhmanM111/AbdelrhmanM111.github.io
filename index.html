@@ -2,53 +2,75 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Abdelrahman Mohamed</title>
-  <link rel="stylesheet" href="style.css" />
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f5f5f5;
+      background: #f9f9f9;
       margin: 0;
       padding: 0;
-      text-align: center;
     }
+
     header {
-      background-color: #222;
+      background-color: #333;
       color: white;
-      padding: 20px 0;
-    }
-    .profile-img {
-      border-radius: 50%;
-      width: 150px;
-      height: 150px;
-      object-fit: cover;
-      margin-top: 20px;
-    }
-    .container {
+      display: flex;
+      align-items: center;
       padding: 20px;
     }
-    .video {
-      margin-top: 20px;
+
+    .profile-pic {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      margin-right: 20px;
+    }
+
+    .header-text h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    .header-text p {
+      margin: 5px 0 0;
+    }
+
+    section {
+      padding: 20px;
+      text-align: center;
+    }
+
+    iframe {
+      border: none;
+      max-width: 100%;
+    }
+
+    h2 {
+      color: #333;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>Abdelrahman Mohamed</h1>
-    <p>Customer Service Agent | Data Enthusiast | Tech Learner</p>
+    <img class="profile-pic" src="https://drive.google.com/uc?export=view&id=1klE7seZae23je_MQgbGyshZ6imTE-vBj" alt="Abdelrahman">
+    <div class="header-text">
+      <h1>Abdelrahman Mohamed</h1>
+      <p>Customer Service Agent | Tech Enthusiast | Lifelong Learner</p>
+    </div>
   </header>
 
-  <div class="container">
-    <img src="PUT-YOUR-IMAGE-LINK-HERE" alt="Abdelrahman's photo" class="profile-img" />
+  <section id="elevator-pitch">
+    <h2>My Elevator Pitch</h2>
+    <iframe 
+      src="https://drive.google.com/file/d/1YdGtlDBu0ChDl_xse3spvvWBzjxbNfL7/preview"
+      width="640" 
+      height="360"
+      allow="autoplay"
+      allowfullscreen>
+    </iframe>
+  </section>
 
-    <div class="video">
-      <h2>Welcome Video</h2>
-      <video width="320" height="240" controls>
-        <source src="your-video.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </div>
-  </div>
 </body>
 </html>
