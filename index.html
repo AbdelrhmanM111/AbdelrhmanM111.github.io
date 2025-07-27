@@ -1,98 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Abdelrahman's Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nega Okay — Focused & Driven</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
       margin: 0;
       padding: 0;
-      background: #f4f4f4;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f2f5;
       color: #333;
     }
+
     header {
-      background: #333;
-      color: #fff;
-      padding: 20px 0;
+      background-color: #002f6c;
+      color: white;
+      padding: 40px 20px;
       text-align: center;
     }
-    section {
-      padding: 40px 20px;
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    main {
       max-width: 1000px;
       margin: auto;
-      background: #fff;
-      margin-bottom: 20px;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 30px 20px;
     }
+
+    section {
+      margin-bottom: 60px;
+    }
+
     h2 {
-      color: #444;
+      color: #002f6c;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
     }
-    .video-container {
-      position: relative;
-      padding-bottom: 56.25%;
-      height: 0;
-      overflow: hidden;
+
+    p {
+      line-height: 1.6;
+      font-size: 1.1rem;
     }
-    .video-container iframe {
-      position: absolute;
-      top: 0; left: 0;
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
-    footer {
-      background: #333;
-      color: #fff;
+
+    .centered {
       text-align: center;
-      padding: 20px 0;
+    }
+
+    iframe, img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    footer {
+      background-color: #002f6c;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+      font-size: 0.9rem;
+    }
+
+    @media screen and (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>Welcome to My Portfolio</h1>
-    <p>Hi, I'm Abdelrahman — a passionate learner and future tech professional</p>
+    <h1>Nega Okay — Focused & Driven</h1>
+    <p>Customer Service Representative | Data Learner | Lifelong Improver</p>
   </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I'm a graduate from the Faculty of Commerce, Alexandria University, currently working as a Customer Service Representative. I'm passionate about technology and continuously learning, especially in areas like Salesforce and data analysis.</p>
-  </section>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello, my name is Abdelrahman. I’m a 31-year-old graduate from the Faculty of Commerce at Alexandria University. Currently, I work at Teleperformance as a Customer Service Representative.
+        My work has taught me to stay calm under pressure, resolve issues efficiently, and always prioritize the customer's experience. Beyond my job, I’m also passionate about data analysis and I’ve been learning and practicing for the past two years.
+        Riding motorbikes and listening to music are more than hobbies — they help me recharge and stay mentally sharp. I’m always working on becoming better, both professionally and personally.
+      </p>
+    </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li><strong>Gaza Data Dashboard (Power BI):</strong> Showcasing conflict data analysis</li>
-      <li><strong>Customer Support Simulations:</strong> Practicing empathy and tech support scenarios</li>
-      <li><strong>Salesforce Admin Trail:</strong> Completed Trailhead modules and certifications</li>
-    </ul>
-  </section>
-
-  <section id="elevator-pitch">
-    <h2>My Elevator Pitch</h2>
-    <div class="video-container">
+    <section id="video" class="centered">
+      <h2>Elevator Pitch</h2>
       <iframe 
-        src="https://drive.google.com/file/d/1YdGtlDBu0ChDl_xse3spvvWBzjxbNfL7/preview"
-        allow="autoplay"
+        src="https://drive.google.com/file/d/1YdGtlDBu0ChDl_xse3spvvWBzjxbNfL7/preview" 
+        width="640" 
+        height="360" 
+        allow="autoplay" 
         allowfullscreen>
       </iframe>
-    </div>
-  </section>
+    </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: abdelrahman@example.com</p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">My LinkedIn</a></p>
-    <p>GitHub: <a href="https://github.com/AbdelrhmanM111" target="_blank">My GitHub</a></p>
-  </section>
+    <section id="photo" class="centered">
+      <h2>Focused & Confident</h2>
+      <img src="https://drive.google.com/uc?export=view&id=1klE7seZae23je_MQgbGyshZ6imTE-vBj" alt="Abdelrahman Photo - Nega Okay" />
+    </section>
+  </main>
 
   <footer>
-    <p>&copy; 2025 Abdelrahman. All rights reserved.</p>
+    <p>&copy; 2025 Abdelrahman Mohamed | Built with purpose and passion.</p>
   </footer>
 
 </body>
