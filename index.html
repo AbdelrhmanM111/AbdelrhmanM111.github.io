@@ -6,38 +6,40 @@
   <title>Abdelrahman | Salesforce Portfolio</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f2f5;
       margin: 0;
       padding: 0;
       color: #333;
     }
     header {
-      background: #0070d2;
+      background: linear-gradient(135deg, #0070d2, #005bb5);
       color: white;
-      padding: 20px;
+      padding: 30px 20px;
       text-align: center;
     }
     section {
-      padding: 20px;
-      max-width: 900px;
+      padding: 30px 20px;
+      max-width: 1000px;
       margin: auto;
     }
     h2 {
       color: #0070d2;
+      margin-top: 40px;
     }
-    .project {
+    .project, .cert {
       background: white;
-      padding: 15px;
-      margin-bottom: 15px;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
     }
     footer {
-      background: #333;
+      background: #222;
       color: white;
       text-align: center;
-      padding: 10px;
+      padding: 15px;
+      margin-top: 40px;
     }
     a {
       color: #0070d2;
@@ -45,6 +47,23 @@
     }
     a:hover {
       text-decoration: underline;
+    }
+    .button {
+      display: inline-block;
+      background-color: #0070d2;
+      color: white;
+      padding: 10px 20px;
+      margin-top: 10px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .button:hover {
+      background-color: #005bb5;
+    }
+    img.cert-img {
+      max-width: 120px;
+      margin: 10px;
+      border-radius: 8px;
     }
   </style>
 </head>
@@ -76,6 +95,16 @@
       <h3>Sales Pipeline Tracker</h3>
       <p>Built a Lead-to-Opportunity conversion tracker using objects, fields, and visual dashboards inside Salesforce.</p>
     </div>
+
+    <h2>Certificates</h2>
+    <div class="cert">
+      <p>Click to view:</p>
+      <a href="https://example.com/cert1" target="_blank"><img src="https://via.placeholder.com/120x90?text=Cert+1" alt="Certificate 1" class="cert-img"></a>
+      <a href="https://example.com/cert2" target="_blank"><img src="https://via.placeholder.com/120x90?text=Cert+2" alt="Certificate 2" class="cert-img"></a>
+    </div>
+
+    <h2>Resume</h2>
+    <a href="https://example.com/resume.pdf" class="button" target="_blank">Download Resume</a>
 
     <h2>Contact</h2>
     <p>Email: abdelrahman@example.com</p>
