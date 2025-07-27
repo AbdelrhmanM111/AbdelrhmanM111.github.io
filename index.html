@@ -7,25 +7,28 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f5f5f5;
+      background-color: #f4f4f4;
       margin: 0;
       padding: 0;
+      color: #333;
     }
 
     header {
       background-color: #2c3e50;
       color: white;
+      padding: 30px 20px;
       display: flex;
       align-items: center;
-      padding: 20px;
+      justify-content: center;
     }
 
     .profile-pic {
       border-radius: 50%;
-      width: 100px;
-      height: 100px;
+      width: 120px;
+      height: 120px;
       object-fit: cover;
       margin-right: 20px;
+      border: 3px solid white;
     }
 
     .header-text h1 {
@@ -33,41 +36,103 @@
       font-size: 28px;
     }
 
+    .header-text p {
+      margin: 5px 0 0 0;
+    }
+
+    main {
+      padding: 30px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
     section {
-      padding: 30px;
-      text-align: center;
+      margin-bottom: 40px;
     }
 
     iframe {
-      border: none;
       max-width: 100%;
+      border: none;
     }
 
     h2 {
-      color: #333;
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #2c3e50;
+      color: white;
+    }
+
+    a {
+      color: #00bfff;
     }
   </style>
 </head>
 <body>
 
   <header>
-    <img class="profile-pic" src="https://drive.google.com/uc?export=view&id=1klE7seZae23je_MQgbGyshZ6imTE-vBj" alt="Abdelrahman">
+    <img class="profile-pic" src="https://drive.google.com/uc?export=view&id=1klE7seZae23je_MQgbGyshZ6imTE-vBj" alt="Abdelrahman Mohamed">
     <div class="header-text">
       <h1>Abdelrahman Mohamed</h1>
-      <p>Customer Service | Tech Learner | Passionate about Growth</p>
+      <p>Customer Service Specialist | Tech Learner | Lifelong Improver</p>
     </div>
   </header>
 
-  <section>
-    <h2>My Elevator Pitch</h2>
-    <iframe 
-      src="https://drive.google.com/file/d/1YdGtlDBu0ChDl_xse3spvvWBzjxbNfL7/preview"
-      width="640" 
-      height="360"
-      allow="autoplay"
-      allowfullscreen>
-    </iframe>
-  </section>
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm Abdelrahman, a 31-year-old graduate from the Faculty of Commerce at Alexandria University.
+        I currently work at Teleperformance as a Customer Service Representative. In this role, I’ve developed
+        strong communication skills, especially in handling challenging situations and solving problems efficiently.
+      </p>
+      <p>
+        I’m passionate about technology and continuous learning. I've been studying data analysis and recently joined the ALX Tech Program to grow in the tech field.
+        Outside of work, I love riding motorbikes and listening to music — they help me stay focused and maintain my mental well-being.
+      </p>
+    </section>
+
+    <section>
+      <h2>My Elevator Pitch</h2>
+      <iframe 
+        src="https://drive.google.com/file/d/1YdGtlDBu0ChDl_xse3spvvWBzjxbNfL7/preview" 
+        width="640" 
+        height="360"
+        allow="autoplay" 
+        allowfullscreen>
+      </iframe>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>Customer Service & Conflict Resolution</li>
+        <li>Data Analysis (Beginner – Excel, Power BI, Python)</li>
+        <li>Effective Communication</li>
+        <li>Time Management & Reliability</li>
+        <li>Team Collaboration</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: abdelrahman.mohamed@example.com</p>
+      <p>GitHub: <a href="https://github.com/Abdelrhmanm111" target="_blank">github.com/Abdelrhmanm111</a></p>
+      <p>Location: Alexandria, Egypt</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Abdelrahman Mohamed</p>
+  </footer>
 
 </body>
 </html>
